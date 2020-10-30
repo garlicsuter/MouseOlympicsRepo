@@ -14,6 +14,7 @@ public class HammerThrow : MonoBehaviour
     public TextMeshProUGUI timeText;
     private float startTime = 0.0f;
 
+
     float currCountdownValue;
 
     public IEnumerator StartCountdown(float countdownValue = 10)
