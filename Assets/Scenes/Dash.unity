@@ -686,6 +686,7 @@ MonoBehaviour:
   rButton: {fileID: 1378216842}
   gameOver: 0
   pw: {fileID: 1844135834}
+  winnerDeclared: 0
 --- !u!61 &912530818
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1239,7 +1240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81.7, y: 273.15}
+  m_AnchoredPosition: {x: -81.7, y: 150.6}
   m_SizeDelta: {x: 384.45, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1657040181
@@ -1462,6 +1463,7 @@ MonoBehaviour:
   opponentVector: {x: 0.8, y: 0}
   ow: {fileID: 1657040181}
   gameOver: 0
+  winnerDeclared: 0
 --- !u!50 &1775295216
 Rigidbody2D:
   serializedVersion: 4
@@ -1606,7 +1608,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81.7, y: 273.15}
+  m_AnchoredPosition: {x: -81.7, y: 150.6}
   m_SizeDelta: {x: 384.45, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1844135834
