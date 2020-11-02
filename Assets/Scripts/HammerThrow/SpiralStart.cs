@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpiralStart : MonoBehaviour
 {
     public GameObject spiralGroup;
+    public GameObject waypoints;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,6 @@ public class SpiralStart : MonoBehaviour
         spiralGroup.GetComponent<HammerThrow>().isThrowing = true;
 
         StartCoroutine(spiralGroup.GetComponent<HammerThrow>().StartCountdown());
-        
+        waypoints.SetActive(true);
     }
 }

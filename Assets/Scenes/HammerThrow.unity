@@ -2030,6 +2030,7 @@ MonoBehaviour:
   isThrowing: 0
   spiralStart: {fileID: 1983605522}
   timeText: {fileID: 12219489}
+  currCountdownValue: 0
 --- !u!1 &1403453307
 GameObject:
   m_ObjectHideFlags: 0
@@ -2147,7 +2148,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1620592793
 Transform:
   m_ObjectHideFlags: 0
@@ -2643,6 +2644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spiralGroup: {fileID: 1287718074}
+  waypoints: {fileID: 1620592792}
 --- !u!1 &2033458894
 GameObject:
   m_ObjectHideFlags: 0
